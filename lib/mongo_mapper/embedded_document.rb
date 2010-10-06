@@ -15,6 +15,7 @@ module MongoMapper
         plugin Plugins::Equality
         plugin Plugins::Inspect
         plugin Plugins::Keys
+        plugin Plugins::Dirty
         plugin Plugins::Logger
         plugin Plugins::Persistence
         plugin Plugins::Accessible
